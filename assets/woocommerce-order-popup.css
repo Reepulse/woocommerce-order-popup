@@ -1,0 +1,117 @@
+        audio {display:none;}
+        
+        div.settings-area{
+            width: 71%;
+            float: left;
+        }
+        
+        div.settings-area-id{
+            width: 30%;
+            float: left;
+        }
+        
+        #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        filter:alpha(opacity=70);
+        -moz-opacity:0.7;
+        -khtml-opacity: 0.7;
+        opacity: 0.7;
+        z-index: 100;
+        display: none;
+        }
+        .cnt223 a{
+        text-decoration: none;
+        }
+        .popup{
+        width: 100%;
+        margin: 0 auto;
+        display: none;
+        position: fixed;
+        z-index: 101;
+        }
+        .cnt223{
+        min-width: 300px;
+        width: 400px;
+        min-height: 150px;
+        margin-left: 400px ;
+        margin-top: 200px;
+        background: #f3f3f3;
+        position: relative;
+        z-index: 103;
+        padding: 15px 35px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px #000;
+        }
+        .cnt223 p{
+        clear: both;
+        color: #555555;
+        /* text-align: justify; */
+        font-size: 20px;
+        font-family: sans-serif;
+        }
+        .cnt223 p a{
+        color: #d91900;
+        font-weight: bold;
+        }
+        .cnt223 .x{
+        float: right;
+        height: 35px;
+        left: 22px;
+        position: relative;
+        top: -25px;
+        width: 34px;
+        }
+        .cnt223 .x:hover{
+        cursor: pointer;
+        }
+        
+        #customers-woocommerce-order-popup td, #customers-woocommerce-order-popup th {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+        
+     
+        #settings-woocommerce-order-popup {
+          font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          margin-top: 2%;
+          
+        }
+        
+        #settings-woocommerce-order-popup td, #settings-woocommerce-order-popup th {
+         
+          border: 1px solid #ddd;
+        }
+        
+/*         #settings-woocommerce-order-popup tr:nth-child(even){background-color: #f2f2f2;}
+        
+        #settings-woocommerce-order-popup tr:hover {background-color: #ddd;}
+        
+        #settings-woocommerce-order-popup th {
+          width: 50%;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: center;
+          background-color: #80CBCC;
+          color: white;
+        } */
+        
+        #settings-woocommerce-order-popup input {
+            width: 95%;
+            text-align: center;
+        }
+        
+        #settings-woocommerce-order-popup input[type=submit] {
+            width: 100%;
+            background-color: white;
+        }
+        
+        #settings-woocommerce-order-popup input[type=checkbox] {
+            width: 5%;
+            background-color: white;
+        }
